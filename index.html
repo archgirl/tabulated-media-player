@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Tabulated Media Player</title>
+    
+    
+    <link rel="stylesheet" href="css/reset.css">
+
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!-- Tabulated Media Player made for Ethan Kellogg's website (www.fatsackgaming.com) -->
+
+<head>
+  <title>Tabulated Media Player</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="container-tab">
+    <div class="tab_style boo_tab">
+
+      <!-- Tab 1 -->
+      <input id="tab_one_1" type="radio" name="boo-tab-1" checked="checked" />
+      <label for="tab_one_1"><i class="fa fa-twitch icon icon-twitch fa-fw"></i>Twitch</label>
+      <!-- End Tab 1 -->
+
+      <!-- Tab 2 -->
+      <input id="tab_two_1" type="radio" name="boo-tab-1" />
+      <label for="tab_two_1"><i class="fa fa-youtube-play icon icon-youtube"></i>YouTube</label>
+      <!-- End Tab 2 -->
+
+      <div class="panel-container">
+
+        <!-- Tab 1 Content -->
+        <div id="tab_one_1">
+          <div class="embed-container">
+            <iframe src="http://player.twitch.tv/?channel=fatsack51"></iframe>
+            <!-- Twitch embed player link only-->
+          </div>
+          <p>
+            <a href="http://www.twitch.tv/fatsack51/chat?popout=" target="popup" onclick="window.open('http://www.twitch.tv/fatsack51/chat?popout=','Fatsack Gaming Twitch Chat','width=300,height=600')">Join the chat!<i class="fa fa-external-link-square icon-chat"></i></a>
+            <!-- Replace link in 'window.open' with your popout chat link-->
+          </p>
+        </div>
+        <!-- End Tab 1 Content -->
+
+        <!-- Tab 2 Content-->
+        <div id="tab_two_1">
+          <div class="embed-container">
+            <iframe src="https://www.youtube.com/embed/RUts7jCz_jE"></iframe>
+            <!-- YouTube embed player link only-->
+          </div>
+          <p>
+            <a href="https://www.youtube.com/live_chat?is_popout=1&v=RUts7jCz_jE&dark_theme=1&from_gaming=1" target="popup" onclick="window.open('https://www.youtube.com/live_chat?is_popout=1&v=RUts7jCz_jE&dark_theme=1&from_gaming=1', 'Fatsack Gaming YouTube Chat', 'width=300,height=600')">Join the chat!<i class="fa fa-external-link-square icon-chat"></i></a>
+            <!-- Replace link in 'window.open' with your popout chat link-->
+          </p>
+        </div>
+        <!-- End Tab 2 Content -->
+
+      </div>
+      <!-- /end "panel-container" -->
+
+    </div>
+    <!-- /end "tab_style boo_tab" -->
+  </div>
+</body>
+    
+    
+    
+    
+    
+  </body>
+</html>

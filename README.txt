@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at http://codepen.io/bermudaquest/pen/RrmZWe.
+
+ Based on Baamboo Studio's "Free Content Tabs Widget" I created a tabulated, responsive media player for Ethan Kellogg's website (Fatsack Gaming) for his live streaming of video games. The tabulated media player using Font Awesome icons and comes complete with pop-out chat so website visitors can chat with you without having to leave.
